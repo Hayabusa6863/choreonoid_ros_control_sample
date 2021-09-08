@@ -8,3 +8,21 @@ The dependent package for this one is ...
 - choreonoid
 - choreonoid_ros
 - choreonoid_ros_control
+
+# How to use
+- build this package
+```bash:
+$ catkin build --this
+```
+
+- launch bringup.launch
+```bash:
+$ roslaunch choreonoid_ros_control_sample bringup.launch
+```
+
+- Press the execute button of Choreonoid
+
+- run sinewave_command node
+```bash:
+$ rosrun choreonoid_ros_control_sample sinewave_command
+```
