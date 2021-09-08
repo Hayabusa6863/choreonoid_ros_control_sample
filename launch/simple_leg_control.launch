@@ -10,7 +10,7 @@
         <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true"/>
 
         <!-- load controller from rosparam -->
-        <rosparam file="$(find choreonoid_ros_control_sample)/config/simple_leg.yaml" command="load"/>
+        <rosparam file="$(find choreonoid_ros_control_sample)/config/simple_leg_control.yaml" command="load"/>
         <node name="controller_spawner" pkg="controller_manager"
             type="spawner" output="screen" respawn="true"
             args="joint_state_controller
