@@ -7,6 +7,8 @@
   </description>
   <maintainer email="f.thlover398@gmail.com">Hayabusa6863</maintainer>
   <license>MIT</license>
+  <url type="website">https://qiita.com/FAL19/items/7b4a491e2399aa5cf7c9</url>
+  <url type="repository">https://github.com/Hayabusa6863/choreonoid_ros_control_sample/</url>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>
